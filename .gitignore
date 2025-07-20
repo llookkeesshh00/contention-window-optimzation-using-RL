@@ -1,5 +1,5 @@
-wandb/
-__pycache__/
+
+
 .ipynb_checkpoints/
 **/__pycache__
 models/
@@ -7,3 +7,22 @@ models/
 .vscode
 workspace.bat
 graphs/
+# Ignore Python cache
+__pycache__/
+
+# Ignore VSCode config
+.vscode/
+
+# Ignore experiment/logging data
+wandb/
+results/
+
+# Ignore system or editor-specific files
+*.log
+*.bat
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore any model outputs or temporary data
+agents/__pycache__/
+results/__pycache__/
